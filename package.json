@@ -1,0 +1,24 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "node-modules/jasmine-node/bin/jasmine-node.js init",
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fast-csv": "4.3.2",
+    "form-data": "^4.0.0",
+    "jasmine-node": "^3.0.0",
+    "multer": "1.4.2",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "node-dev": "^3.0.0"
+  }
+}
